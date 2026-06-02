@@ -1,0 +1,16 @@
+# Normalize line endings
+* text=auto
+
+# HTML, CSS, JS - text
+*.html text
+*.css text
+*.js text
+*.md text
+
+# Binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文章与项目 — 埃弗雷斯特工程</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="index.html" aria-label="埃弗雷斯特工程">
+      <img class="logo__img" src="../assets/logo-lockup.png" alt="埃弗雷斯特工程 — 工业输送机零部件">
+    </a>
+    <nav aria-label="主导航">
+      <ul class="nav__links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="products.html">产品</a></li>
+        <li><a href="articles.html" class="active">文章</a></li>
+        <li><a href="contacts.html">联系我们</a></li>
+      </ul>
+    </nav>
+    <div class="nav__cta" style="display:flex;align-items:center;gap:12px">
+      <div class="lang-switch">
+        <a href="../articles.html">RU</a>
+        <span class="lang-active">ZH</span>
+      </div>
+      <a class="btn btn--accent" href="contacts.html">联系我们 <span class="arw">→</span></a>
+    </div>
+    <button class="burger" aria-label="打开菜单"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu">
+  <a href="index.html">首页</a>
+  <a href="products.html">产品</a>
+  <a href="articles.html" class="active">文章</a>
+  <a href="contacts.html">联系我们</a>
+  <div style="display:flex;gap:12px;padding:8px 0"><a href="../articles.html">RU</a><span class="lang-active">ZH</span></div>
+</div>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="wrap">
+    <p class="crumb reveal"><a href="index.html">首页</a> &nbsp;/&nbsp; 文章与项目</p>
+    <h1 class="h-display reveal" data-delay="1">文章<br>与项目</h1>
+    <p class="lede reveal" data-delay="2">已实施案例、技术解析及生产现场记录。</p>
+  </div>
+</section>
+
+<!-- ============ GRID ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="filter-bar reveal">
+      <button class="active" data-cat="all">全部</button>
+      <button data-cat="kovshi">料斗</button>
+      <button data-cat="plastiny">板条</button>
+      <button data-cat="proekty">项目</button>
+    </div>
+
+    <div class="art-grid">
+      <article class="acard reveal" data-cat="kovshi">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">提升机料斗</span></div>
+          <img src="../uploads/project-1.jpg" alt="">
+          <span class="acard__cat">料斗</span>
+        </div>
+        <div class="acard__body">
+          <h3>高度90米水泥提升机料斗</h3>
+          <p>一批用于将熟料提升至90米以上的异形底耐磨钢料斗。</p>
+          <a class="acard__more" href="#">阅读更多 <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="acard reveal" data-delay="1" data-cat="plastiny">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">给料机板条</span></div>
+          <img src="../uploads/project-2.jpg" alt="">
+          <span class="acard__cat">板条</span>
+        </div>
+        <div class="acard__body">
+          <h3>宽度3米焊接板条</h3>
+          <p>三层板条焊接工艺：如何实现理想平整度以确保输送带的紧密配合。</p>
+          <a class="acard__more" href="#">阅读更多 <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="acard reveal" data-delay="2" data-cat="proekty">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">设备安装</span></div>
+          <img src="../uploads/project-3.jpg" alt="">
+          <span class="acard__cat">项目</span>
+        </div>
+        <div class="acard__body">
+          <h3>向矿山选矿厂供应零部件</h3>
+          <p>案例：在高磨蚀性条件下向矿山选矿联合企业供应板式给料机零件和衬板。</p>
+          <a class="acard__more" href="#">阅读更多 <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="acard reveal" data-cat="kovshi">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">输送机格槽</span></div>
+          <img src="../uploads/project-4.jpg" alt="">
+          <span class="acard__cat">料斗</span>
+        </div>
+        <div class="acard__body">
+          <h3>熟料输送机格槽</h3>
+          <p>为冶金企业制造用于高温球团矿输送的格槽输送带。</p>
+          <a class="acard__more" href="#">阅读更多 <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="acard reveal" data-delay="1" data-cat="plastiny">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">异形侧板</span></div>
+          <img src="../uploads/photo-production-2.jpg" alt="">
+          <span class="acard__cat">板条</span>
+        </div>
+        <div class="acard__body">
+          <h3>输送带板条锁扣密封件</h3>
+          <p>解析锁扣密封元件的结构及其在输送带密封中的作用。</p>
+          <a class="acard__more" href="#">阅读更多 <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="acard reveal" data-delay="2" data-cat="proekty">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">非标金属结构件</span></div>
+          <img src="../uploads/section-bg.jpg" alt="">
+          <span class="acard__cat">项目</span>
+        </div>
+        <div class="acard__body">
+          <h3>定制料仓、溜槽与框架</h3>
+          <p>为重型破碎设备制造非标金属结构件和支撑结构。</p>
+          <a class="acard__more" href="#">阅读更多 <span class="arw">→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<div class="hazard hazard--thin"></div>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="footer-logo">
+        <img src="../assets/logo-lockup.png" alt="埃弗雷斯特工程" style="height:46px;width:auto">
+      </div>
+      <p class="footer-slogan">世界由简单的事物构成。<span class="accent">我们知道如何制造它们！</span></p>
+    </div>
+    <div class="fcol">
+      <h4>产品</h4>
+      <ul>
+        <li><a href="products.html#roliki">输送机滚轮</a></li>
+        <li><a href="products.html#kovshi">提升机料斗</a></li>
+        <li><a href="products.html#kovshi">输送机刮板</a></li>
+        <li><a href="products.html#kovshi">提升机机槽</a></li>
+        <li><a href="products.html#roliki">输送机链条</a></li>
+        <li><a href="products.html#roliki">轴、半轴</a></li>
+        <li><a href="products.html#klinkernye">壳体与料仓</a></li>
+        <li><a href="products.html#plastiny">重型给料机板条</a></li>
+        <li><a href="products.html#roliki">联轴器、半联轴器</a></li>
+      </ul>
+    </div>
+    <div class="fcol">
+      <h4>公司</h4>
+      <ul>
+        <li><a href="index.html#about">关于我们</a></li>
+        <li><a href="contacts.html">招聘</a></li>
+        <li><a href="contacts.html">法律条款</a></li>
+        <li><a href="contacts.html">联系我们</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 埃弗雷斯特工程</span>
+    <a href="contacts.html">info@everest-en.ru</a>
+  </div>
+</footer>
+
+<script src="../assets/site.js"></script>
+</body>
+</html>

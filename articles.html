@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Статьи и проекты — Эверест Инжиниринг</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="index.html" aria-label="Эверест Инжиниринг">
+      <img class="logo__img" src="assets/logo-lockup.png" alt="Эверест Инжиниринг — промышленные компоненты для конвейерной техники">
+    </a>
+    <nav aria-label="Основная навигация">
+      <ul class="nav__links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="products.html">Продукты</a></li>
+        <li><a href="articles.html" class="active">Статьи</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="nav__cta" style="display:flex;align-items:center;gap:12px"><div class="lang-switch"><span class="lang-active">RU</span><a href="zh/articles.html">ZH</a></div><a class="btn btn--accent" href="contacts.html">Связаться <span class="arw">→</span></a></div>
+    <button class="burger" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu">
+  <a href="index.html">Главная</a>
+  <a href="products.html">Продукты</a>
+  <a href="articles.html" class="active">Статьи</a>
+  <a href="contacts.html">Контакты</a>
+</div>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="wrap">
+    <p class="crumb reveal"><a href="index.html">Главная</a> &nbsp;/&nbsp; Статьи и проекты</p>
+    <h1 class="h-display reveal" data-delay="1">Статьи<br>и проекты</h1>
+    <p class="lede reveal" data-delay="2">Реализованные кейсы, технические разборы и заметки с производства.</p>
+  </div>
+</section>
+
+<!-- ============ GRID ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="filter-bar reveal">
+      <button class="active" data-cat="all">Все</button>
+      <button data-cat="kovshi">Ковши</button>
+      <button data-cat="plastiny">Пластины</button>
+      <button data-cat="proekty">Проекты</button>
+    </div>
+
+    <div class="art-grid">
+      <article class="acard reveal" data-cat="kovshi">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">ковши элеватора</span></div>
+          <img src="uploads/project-1.jpg" alt="">
+          <span class="acard__cat">Ковши</span>
+        </div>
+        <div class="acard__body">
+          <h3>Ковши для цементного элеватора высотой 90 м</h3>
+          <p>Партия ковшей с профильным днищем из износостойкой стали для подачи клинкера на высоту более 90 метров.</p>
+          <a class="acard__more" href="#">Читать далее <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="acard reveal" data-delay="1" data-cat="plastiny">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">пластина питателя</span></div>
+          <img src="uploads/project-2.jpg" alt="">
+          <span class="acard__cat">Пластины</span>
+        </div>
+        <div class="acard__body">
+          <h3>Сварная пластина питателя шириной 3 метра</h3>
+          <p>Технология сварки трёхслойной пластины: как добиться идеальной плоскостности для плотного сопряжения полотна.</p>
+          <a class="acard__more" href="#">Читать далее <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="acard reveal" data-delay="2" data-cat="proekty">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">монтаж оборудования</span></div>
+          <img src="uploads/project-3.jpg" alt="">
+          <span class="acard__cat">Проекты</span>
+        </div>
+        <div class="acard__body">
+          <h3>Поставка комплектующих на ГОК</h3>
+          <p>Кейс: части пластинчатых питателей и футеровки для горно-обогатительного комбината в условиях высокой абразивности.</p>
+          <a class="acard__more" href="#">Читать далее <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="acard reveal" data-cat="kovshi">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">ячейки транспортёра</span></div>
+          <img src="uploads/project-4.jpg" alt="">
+          <span class="acard__cat">Ковши</span>
+        </div>
+        <div class="acard__body">
+          <h3>Ячейки клинкерного транспортёра</h3>
+          <p>Изготовление полотна из ячеек для транспортировки горячих окатышей на металлургическом предприятии.</p>
+          <a class="acard__more" href="#">Читать далее <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="acard reveal" data-delay="1" data-cat="plastiny">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">профилированные боковины</span></div>
+          <img src="uploads/photo-production-2.jpg" alt="">
+          <span class="acard__cat">Пластины</span>
+        </div>
+        <div class="acard__body">
+          <h3>Замковое уплотнение пластин полотна</h3>
+          <p>Разбираем конструкцию элементов замкового уплотнения и их роль в герметичности транспортёрного полотна.</p>
+          <a class="acard__more" href="#">Читать далее <span class="arw">→</span></a>
+        </div>
+      </article>
+
+      <article class="acard reveal" data-delay="2" data-cat="proekty">
+        <div class="acard__media media">
+          <div class="ph"><span class="ph__label">нестандартная металлоконструкция</span></div>
+          <img src="uploads/section-bg.jpg" alt="">
+          <span class="acard__cat">Проекты</span>
+        </div>
+        <div class="acard__body">
+          <h3>Бункеры, течки и рамы под заказ</h3>
+          <p>Изготовление нестандартных металлоконструкций и опорных конструкций для тяжёлого дробильного оборудования.</p>
+          <a class="acard__more" href="#">Читать далее <span class="arw">→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<div class="hazard hazard--thin"></div>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="footer-logo">
+        <img src="assets/logo-lockup.png" alt="Эверест Инжиниринг" style="height:46px;width:auto">
+      </div>
+      <p class="footer-slogan">Мир строится из простых вещей. <span class="accent">Мы умеем их делать!</span></p>
+    </div>
+    <div class="fcol">
+      <h4>Продукты</h4>
+      <ul>
+        <li><a href="products.html#roliki">Ролики конвейера</a></li>
+        <li><a href="products.html#kovshi">Ковши элеватора</a></li>
+        <li><a href="products.html#kovshi">Скребки конвейера</a></li>
+        <li><a href="products.html#kovshi">Шахта элеватора</a></li>
+        <li><a href="products.html#roliki">Цепи конвейера</a></li>
+        <li><a href="products.html#roliki">Оси, полуоси</a></li>
+        <li><a href="products.html#klinkernye">Корпуса и бункера</a></li>
+        <li><a href="products.html#plastiny">Пластины тяжёлого питателя</a></li>
+        <li><a href="products.html#roliki">Муфты, полумуфты</a></li>
+      </ul>
+    </div>
+    <div class="fcol">
+      <h4>Компания</h4>
+      <ul>
+        <li><a href="index.html#about">О нас</a></li>
+        <li><a href="contacts.html">Карьера</a></li>
+        <li><a href="contacts.html">Правовые положения</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Эверест Инжиниринг</span>
+    <a href="contacts.html">info@everest-en.ru</a>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

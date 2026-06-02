@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Продукты — Эверест Инжиниринг</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="index.html" aria-label="Эверест Инжиниринг">
+      <img class="logo__img" src="assets/logo-lockup.png" alt="Эверест Инжиниринг — промышленные компоненты для конвейерной техники">
+    </a>
+    <nav aria-label="Основная навигация">
+      <ul class="nav__links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="products.html" class="active">Продукты</a></li>
+        <li><a href="articles.html">Статьи</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="nav__cta" style="display:flex;align-items:center;gap:12px"><div class="lang-switch"><span class="lang-active">RU</span><a href="zh/products.html">ZH</a></div><a class="btn btn--accent" href="contacts.html">Связаться <span class="arw">→</span></a></div>
+    <button class="burger" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu">
+  <a href="index.html">Главная</a>
+  <a href="products.html" class="active">Продукты</a>
+  <a href="articles.html">Статьи</a>
+  <a href="contacts.html">Контакты</a>
+</div>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="page-hero__bg media">
+    <div class="ph"></div>
+    <img src="uploads/section-bg.jpg" alt="Монтаж оборудования" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+  </div>
+  <div class="wrap">
+    <p class="crumb reveal"><a href="index.html">Главная</a> &nbsp;/&nbsp; Продукты</p>
+    <h1 class="h-display reveal" data-delay="1">Продукты</h1>
+    <p class="lede reveal" data-delay="2">Готовые к применению решения. Все компоненты для оборудования обработки сыпучих — в одном месте.</p>
+  </div>
+</section>
+
+<!-- ============ INTRO ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="intro-cols">
+      <div class="reveal">
+        <span class="eyebrow">Производство</span>
+        <p style="margin-top:18px">«Эверест Инжиниринг» — классическое металлообрабатывающее производство, которое использует стандартный набор операций: резка, распиловка, рубка, гибка, сверление металла, токарная и фрезерная обработка заготовок, сварка и сборка готовых металлоизделий.</p>
+      </div>
+      <div class="reveal" data-delay="1">
+        <p>Основной акцент делается на производство компонентов пластинчатых питателей, скребковых конвейеров, ячейковых клинкерных транспортёров, вертикальных ковшовых элеваторов, грохотов.</p>
+        <p>Кроме этого предприятие специализируется на изготовлении нестандартных металлоконструкций: бункеры конвейеров, течки, желоба, корпуса оборудования, рамы конвейеров, опорные конструкции дробилок и другого тяжёлого оборудования.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BIG QUOTE ============ -->
+<section class="wrap">
+  <blockquote class="bigquote reveal">Пока одни покоряют космос, <span class="accent">кто-то должен делать простые вещи!</span></blockquote>
+</section>
+
+<!-- ============ PRODUCT DETAILS ============ -->
+<section class="section">
+  <div class="wrap" style="display:flex;flex-direction:column;gap:clamp(56px,8vw,110px)">
+
+    <!-- 01 -->
+    <article id="kovshi" class="prod-detail reveal">
+      <div class="prod-media media">
+        <div class="ph"><span class="ph__label">ковши элеваторов</span></div>
+        <img src="uploads/product-1.jpg" alt="Ковши элеваторов">
+      </div>
+      <div class="prod-info">
+        <span class="eyebrow">Продукт 01</span>
+        <h3>Ковши элеваторов</h3>
+        <p>Самый массовый продукт производства — ковши для вертикальных ковшовых элеваторов. Изготовленные ковши успешно работают на самых различных материалах: цемент, удобрения, руда, известняк и др.</p>
+        <ul class="spec-list">
+          <li><span class="k">Ширина</span><span class="v">от 150 до 2000 мм</span></li>
+          <li><span class="k">Глубина</span><span class="v">до 500 мм</span></li>
+          <li><span class="k">Толщина металла</span><span class="v">до 10 мм</span></li>
+          <li><span class="k">Материалы</span><span class="v">углерод., нерж. сталь, аналоги Hardox</span></li>
+          <li><span class="k">Типы</span><span class="v">для ленточных и цепных элеваторов</span></li>
+          <li><span class="k">Формы</span><span class="v">с круглым и с профильным днищем</span></li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- 02 -->
+    <article id="plastiny" class="prod-detail prod-detail--rev reveal">
+      <div class="prod-media media">
+        <div class="ph"><span class="ph__label">сварная пластина питателя</span></div>
+        <img src="uploads/photo-production-2.jpg" alt="Пластины питателей">
+      </div>
+      <div class="prod-info">
+        <span class="eyebrow">Продукт 02</span>
+        <h3>Пластины тяжёлых пластинчатых питателей</h3>
+        <p>Одно из самых сложных изделий в технологии конвейеров — сварная пластина тяжёлого пластинчатого питателя. Ширина такой пластины может достигать 3-х метров. Она состоит из профилированных боковин, несущего основания и элементов замкового уплотнения.</p>
+        <p>Конструкция пластины может иметь до 3-х слоёв металла различной толщины. Основная сложность при изготовлении — технология сварки: пластина должна быть идеально ровной, чтобы иметь плотное сопряжение с другими пластинами полотна.</p>
+      </div>
+    </article>
+
+    <!-- 03 -->
+    <article id="klinkernye" class="prod-detail reveal">
+      <div class="prod-media media">
+        <div class="ph"><span class="ph__label">ковши и ячейки транспортёров</span></div>
+        <img src="uploads/photo-production-1.jpg" alt="Ковши и ячейки клинкерных транспортёров">
+      </div>
+      <div class="prod-info">
+        <span class="eyebrow">Продукт 03</span>
+        <h3>Ковши и ячейки клинкерных транспортёров</h3>
+        <p>Для транспортировки горячих материалов типа клинкера, ГБЖ, окатышей применяются пластинчатые конвейеры с полотном из ковшей, ячеек, паллет, пластин. Изделия применяются как на цементных, так и на металлургических предприятиях.</p>
+        <ul class="spec-list">
+          <li><span class="k">Материалы</span><span class="v">клинкер, ГБЖ, окатыши</span></li>
+          <li><span class="k">Полотно</span><span class="v">ковши, ячейки, паллеты, пластины</span></li>
+          <li><span class="k">Отрасли</span><span class="v">цемент, металлургия</span></li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- 04 -->
+    <article id="roliki" class="prod-detail prod-detail--rev reveal">
+      <div class="prod-media media">
+        <div class="ph"><span class="ph__label">ролики конвейеров</span></div>
+        <img src="uploads/product-2.jpg" alt="Ролики пластинчатых конвейеров">
+      </div>
+      <div class="prod-info">
+        <span class="eyebrow">Продукт 04</span>
+        <h3>Ролики пластинчатых конвейеров</h3>
+        <p>Для движения полотна пластинчатого транспортёра необходимы различные виды роликов:</p>
+        <ul class="spec-list">
+          <li><span class="k">Опорные</span><span class="v">ролики рабочей ветви</span></li>
+          <li><span class="k">Поддерживающие</span><span class="v">ролики холостой ветви</span></li>
+          <li><span class="k">Цепные</span><span class="v">ролики пластинчатой роликовой цепи</span></li>
+          <li><span class="k">Диаметр</span><span class="v">корпуса, оси и ролики в сборе — до 400 мм</span></li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ FULL LIST ============ -->
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <span class="eyebrow">Полный список</span>
+      <h2 class="h-sect">Что мы производим</h2>
+    </div>
+    <div class="tag-cloud reveal">
+      <a href="products.html#roliki">Ролики конвейера</a>
+      <a href="products.html#kovshi">Ковши элеватора</a>
+      <a href="products.html#kovshi">Скребки конвейера</a>
+      <a href="products.html#kovshi">Шахта элеватора</a>
+      <a href="products.html#roliki">Цепи конвейера</a>
+      <a href="products.html#roliki">Оси, полуоси</a>
+      <a href="products.html#klinkernye">Корпуса и бункера</a>
+      <a href="products.html#klinkernye">Нестандартные металлоконструкции</a>
+      <a href="products.html#plastiny">Пластины тяжёлого питателя</a>
+      <a href="products.html#roliki">Муфты, полумуфты</a>
+    </div>
+    <div style="margin-top:48px" class="reveal">
+      <a class="btn btn--accent" href="contacts.html">Запросить расчёт <span class="arw">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<div class="hazard hazard--thin"></div>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="footer-logo">
+        <img src="assets/logo-lockup.png" alt="Эверест Инжиниринг" style="height:46px;width:auto">
+      </div>
+      <p class="footer-slogan">Мир строится из простых вещей. <span class="accent">Мы умеем их делать!</span></p>
+    </div>
+    <div class="fcol">
+      <h4>Продукты</h4>
+      <ul>
+        <li><a href="products.html#roliki">Ролики конвейера</a></li>
+        <li><a href="products.html#kovshi">Ковши элеватора</a></li>
+        <li><a href="products.html#kovshi">Скребки конвейера</a></li>
+        <li><a href="products.html#kovshi">Шахта элеватора</a></li>
+        <li><a href="products.html#roliki">Цепи конвейера</a></li>
+        <li><a href="products.html#roliki">Оси, полуоси</a></li>
+        <li><a href="products.html#klinkernye">Корпуса и бункера</a></li>
+        <li><a href="products.html#plastiny">Пластины тяжёлого питателя</a></li>
+        <li><a href="products.html#roliki">Муфты, полумуфты</a></li>
+      </ul>
+    </div>
+    <div class="fcol">
+      <h4>Компания</h4>
+      <ul>
+        <li><a href="index.html#about">О нас</a></li>
+        <li><a href="contacts.html">Карьера</a></li>
+        <li><a href="contacts.html">Правовые положения</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Эверест Инжиниринг</span>
+    <a href="contacts.html">info@everest-en.ru</a>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
